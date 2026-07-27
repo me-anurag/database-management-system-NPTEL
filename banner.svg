@@ -1,0 +1,102 @@
+<svg width="1600" height="500" viewBox="0 0 1600 500" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="500">
+      <stop offset="0%" stop-color="#FFFFFF"></stop>
+      <stop offset="100%" stop-color="#F8FAFC"></stop>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2563EB"></stop>
+      <stop offset="100%" stop-color="#3B82F6"></stop>
+    </linearGradient>
+
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-opacity="0.08"></feDropShadow>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="500" rx="24" fill="url(#bg)"></rect>
+
+  <!-- Left Database Icon -->
+  <g transform="translate(90 105)" filter="url(#shadow)">
+
+    <ellipse cx="90" cy="20" rx="70" ry="20" fill="#2563EB"></ellipse>
+
+    <rect x="20" y="20" width="140" height="120" fill="#2563EB"></rect>
+
+    <ellipse cx="90" cy="140" rx="70" ry="20" fill="#1D4ED8"></ellipse>
+
+    <ellipse cx="90" cy="60" rx="70" ry="20" fill="#3B82F6"></ellipse>
+
+    <ellipse cx="90" cy="100" rx="70" ry="20" fill="#60A5FA"></ellipse>
+
+  </g>
+
+  <!-- Decorative connection lines -->
+  <g stroke="#BFDBFE" stroke-width="2">
+
+    <line x1="250" y1="180" x2="340" y2="180"></line>
+    <line x1="250" y1="220" x2="330" y2="260"></line>
+    <line x1="250" y1="140" x2="330" y2="100"></line>
+
+    <circle cx="340" cy="180" r="5" fill="#2563EB"></circle>
+    <circle cx="330" cy="100" r="5" fill="#2563EB"></circle>
+    <circle cx="330" cy="260" r="5" fill="#2563EB"></circle>
+
+  </g>
+
+  <!-- Main Title -->
+
+  <text x="860" y="170" text-anchor="middle" font-size="64" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700" fill="#0F172A">
+
+      Database Management System
+
+  </text>
+
+  <!-- Divider -->
+
+  <rect x="520" y="215" width="680" height="4" rx="2" fill="url(#accent)"></rect>
+
+  <!-- Subtitle -->
+
+  <text x="860" y="285" text-anchor="middle" font-size="54" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="800" fill="#2563EB">
+
+      NPTEL
+
+  </text>
+
+  <!-- Metadata -->
+
+  <text x="860" y="345" text-anchor="middle" font-size="22" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#475569">
+
+      SQL • Relational Algebra • ER Model • Transactions • Indexing • Query Optimization
+
+  </text>
+
+  <!-- Bottom -->
+
+  <text x="860" y="425" text-anchor="middle" font-size="22" font-family="Inter,Segoe UI,Arial,sans-serif" fill="#64748B">
+
+      Notes • Assignments • Revision • Practice Questions • Resources
+
+  </text>
+
+  <!-- Right Decorative Card -->
+
+  <g transform="translate(1360 120)" filter="url(#shadow)">
+
+      <rect width="150" height="140" rx="18" fill="#FFFFFF" stroke="#DBEAFE"></rect>
+
+      <line x1="35" y1="40" x2="115" y2="40" stroke="#2563EB" stroke-width="4" stroke-linecap="round"></line>
+
+      <line x1="35" y1="65" x2="105" y2="65" stroke="#60A5FA" stroke-width="4" stroke-linecap="round"></line>
+
+      <line x1="35" y1="90" x2="120" y2="90" stroke="#93C5FD" stroke-width="4" stroke-linecap="round"></line>
+
+      <line x1="35" y1="115" x2="90" y2="115" stroke="#BFDBFE" stroke-width="4" stroke-linecap="round"></line>
+
+  </g>
+
+</svg>
